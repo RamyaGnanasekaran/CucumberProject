@@ -1,5 +1,7 @@
+@reg
 Feature: To Test the Add Tariff functionality
 
+@reg
 Scenario: To enter the Add Tariff details
 	Given The User is in gurantetelecom Demo Site
 	And The User navigates to add tariff plans page 

@@ -35,7 +35,7 @@ public class JquerySelectDropdownSteps {
 		WebElement dDnCountry = driver.findElement(By.xpath("//span[@aria-labelledby=\"select2-country-container\"]"));
 		Select s = new Select(dDnCountry);
 		s.selectByVisibleText("India");
-	}
+			}
 
 	// @Then("The Verify the Jquery page Url")
 	// public void the_Verify_the_Jquery_page_Url() {
