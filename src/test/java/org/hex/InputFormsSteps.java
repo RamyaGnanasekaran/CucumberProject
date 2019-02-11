@@ -24,8 +24,6 @@ public class InputFormsSteps {
 		driver.findElement(By.xpath("(//a[@class='dropdown-toggle'])[1]")).click();
 		driver.findElement(By.xpath("(//a[text()='Input Form Submit'])[1]")).click();
 	}
-
-	@When("The user fill in the Input Form details {string}, {string}, {string}, {string}, {string}, {string}, {string}, {string}, {string}")
 	public void the_user_fill_in_the_Input_Form_details(String fname, String lname, String email, String phone, String address, String city, String pincode, String domain, String desc) {
 	   driver.findElement(By.name("first_name")).sendKeys(fname);
 	   driver.findElement(By.name("last_name")).sendKeys(lname);

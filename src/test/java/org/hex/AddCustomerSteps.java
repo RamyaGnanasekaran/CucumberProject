@@ -23,7 +23,9 @@ public class AddCustomerSteps {
 				"D:\\Users\\Ramya\\eclipse-workspace\\TestPrograms\\CucumberProject\\driver\\chromedriver.exe.exe");
 		driver = new ChromeDriver();
 		driver.get("http://demo.guru99.com/telecom/index.html");
+		
 	}
+	
 
 	@Given("The User navigates to add customer page")
 	public void the_User_navigates_to_add_customer_page() {

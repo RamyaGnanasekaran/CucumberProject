@@ -1,0 +1,143 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 8167861,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.beforeMethod()"
+            }
+          },
+          {
+            "result": {
+              "duration": 515238,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.beforeMethod2()"
+            }
+          },
+          {
+            "result": {
+              "duration": 425944,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.beforeMethod1()"
+            }
+          },
+          {
+            "result": {
+              "duration": 11990969987,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook1.beforeMethod()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "To Select the checkbox in checkbox Demo",
+        "description": "",
+        "id": "to-test-the-input-forms-in-selenium-easy-page---check-box-demo;to-select-the-checkbox-in-checkbox-demo",
+        "after": [
+          {
+            "result": {
+              "duration": 122138,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.afterMethod()"
+            }
+          },
+          {
+            "result": {
+              "duration": 101098,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.afterMethod1()"
+            }
+          },
+          {
+            "result": {
+              "duration": 87755,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.afterMethod2()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 15647443592,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "The User is in Selenium home page screen",
+            "match": {
+              "location": "CheckBoxDemoSteps.the_User_is_in_Selenium_home_page_screen()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2299142005,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "The User navigates to the Checkbox Demo page",
+            "match": {
+              "location": "CheckBoxDemoSteps.the_User_navigates_to_the_Checkbox_Demo_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 242844526,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "The user select the checkbox",
+            "match": {
+              "location": "CheckBoxDemoSteps.the_user_select_the_checkbox()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 107193167,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "The Success message should display",
+            "match": {
+              "location": "CheckBoxDemoSteps.the_Success_message_should_display()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      }
+    ],
+    "name": "To Test the Input Forms in Selenium easy Page - Check Box Demo",
+    "description": "",
+    "id": "to-test-the-input-forms-in-selenium-easy-page---check-box-demo",
+    "keyword": "Feature",
+    "uri": "src/test/resources/CheckBoxDemo.feature",
+    "tags": []
+  }
+]
