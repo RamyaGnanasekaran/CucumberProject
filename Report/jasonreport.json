@@ -6,7 +6,7 @@
         "before": [
           {
             "result": {
-              "duration": 8167861,
+              "duration": 1727896,
               "status": "passed"
             },
             "match": {
@@ -15,16 +15,7 @@
           },
           {
             "result": {
-              "duration": 515238,
-              "status": "passed"
-            },
-            "match": {
-              "location": "Hook.beforeMethod2()"
-            }
-          },
-          {
-            "result": {
-              "duration": 425944,
+              "duration": 148823,
               "status": "passed"
             },
             "match": {
@@ -33,7 +24,16 @@
           },
           {
             "result": {
-              "duration": 11990969987,
+              "duration": 99558,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.beforeMethod2()"
+            }
+          },
+          {
+            "result": {
+              "duration": 14804963325,
               "status": "passed"
             },
             "match": {
@@ -48,16 +48,7 @@
         "after": [
           {
             "result": {
-              "duration": 122138,
-              "status": "passed"
-            },
-            "match": {
-              "location": "Hook.afterMethod()"
-            }
-          },
-          {
-            "result": {
-              "duration": 101098,
+              "duration": 164733,
               "status": "passed"
             },
             "match": {
@@ -66,11 +57,20 @@
           },
           {
             "result": {
-              "duration": 87755,
+              "duration": 149851,
               "status": "passed"
             },
             "match": {
               "location": "Hook.afterMethod2()"
+            }
+          },
+          {
+            "result": {
+              "duration": 115467,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.afterMethod()"
             }
           }
         ],
@@ -79,7 +79,7 @@
         "steps": [
           {
             "result": {
-              "duration": 15647443592,
+              "duration": 25398004632,
               "status": "passed"
             },
             "line": 4,
@@ -91,7 +91,7 @@
           },
           {
             "result": {
-              "duration": 2299142005,
+              "duration": 3253019969,
               "status": "passed"
             },
             "line": 5,
@@ -103,7 +103,7 @@
           },
           {
             "result": {
-              "duration": 242844526,
+              "duration": 109652866,
               "status": "passed"
             },
             "line": 6,
@@ -115,7 +115,7 @@
           },
           {
             "result": {
-              "duration": 107193167,
+              "duration": 124993521,
               "status": "passed"
             },
             "line": 7,
